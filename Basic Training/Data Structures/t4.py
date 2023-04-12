@@ -6,4 +6,18 @@ for letter in enumerate(letter):
 # (1, 'b')
 # (2, 'c')
 
-print(12, "this is cool")
+for letter in enumerate(letter):
+    print(letter[0], letter[1])
+
+# output
+# 0 a
+# 1 b
+# 2 c
+
+for index, letter in enumerate(letter):
+    print(index, letter)
+
+# output
+# 0 a
+# 1 b
+# 2 c
